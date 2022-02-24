@@ -1,0 +1,51 @@
+:root{
+  --main-bg:green;
+}
+
+.main-bg {
+  background: var(--main-bg) !important;
+}
+
+input:focus, button:focus {
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+  border-radius: 15px;
+}
+
+.form-check-input:checked {
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card, .btn, input{
+  border-radius:10 !important;
+    
+}
+.backB{
+  justify-content: center;
+  width: 150px;
+  margin-left: 85px;
+}
+
+.backB a{
+  margin-left: -15px;
+ color: white;
+ width: 150px;
+}
+.backB a:hover{
+  color: black;
+}
+
+/*---------------------- Media query --------------------*/
+/* @media screen and (min-width:375) {
+  .backB{
+    
+    width: 150px;
+    margin-left: -350px;
+  }
+  .backB a{
+    margin-left: -125px;
+    color: white;
+    width: 150px;
+  }
+} */
